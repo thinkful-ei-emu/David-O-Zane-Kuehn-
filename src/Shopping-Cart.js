@@ -1,7 +1,9 @@
 import React from 'react'
+import SelectFeatures from './SelectFeatures';
 
 
 function ShoppingCart(props){
+  
 
   return(
     <section className="main__form">
