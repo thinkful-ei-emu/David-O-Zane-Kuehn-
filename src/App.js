@@ -79,12 +79,10 @@ class App extends Component {
     return (
    
     
-      <div className="App">
-        
-        
-        <Header/>
-    <ShoppingCart features={this.features} updateFeature={this.updateFeature}/>
-    <TotalList summary={this.summary} total={total}/>
+    <div className="App">    
+      <Header/>
+      <ShoppingCart features={features} updateFeature={()=>this.updateFeature()}/>
+      <TotalList summary={summary} total={total}/>
     </div>
     );
   }
